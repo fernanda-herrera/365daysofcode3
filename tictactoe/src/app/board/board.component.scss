@@ -1,0 +1,15 @@
+main {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 0px;
+}
+
+app-square {
+    border: 1px gray solid;
+    height: 200px;
+}
+
+.nb-theme-dark nb-layout-header.fixed ~ .layout-container {
+    padding-top: 1rem !important;
+    min-height: 80vh !important;
+}
